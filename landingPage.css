@@ -1,0 +1,211 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(146, 155, 168);
+  }
+  
+  header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    position: fixed;
+    background-color: rgb(29, 42, 114);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .Navigation {
+    font-size: 0.99em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    justify-self: end;
+  }
+
+
+  
+  .Navigation a:hover {
+    color: red;
+  }
+  
+  .Navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    padding: 10px 20px;
+  }
+  
+  .main {
+    margin-top: 35px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .partOfMain {
+    display: flex;
+    background-color: rgb(146, 155, 168);
+    width: 70%;
+    height: 350px;
+    background-image: url('magana.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px 750px;
+  }
+  
+  .main .partOfMain p {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .container2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .container2 .content {
+    width: 530px;
+    height: 370px;
+    margin: 0 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    align-items: center;
+    background: rgba(95, 123, 163, 0.7);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .main .wrapper {
+    width: 308px;
+    height: 350px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(95, 123, 163, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .main .wrapper:hover {
+    box-shadow: 0px 0px 20px rgba(108, 167, 201, 0.5);
+  }
+  
+  .main .wrapper a {
+    background-color: #3685eb;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .main .wrapper h2,
+  .main .mainWrapper2 .wrapper2 h2 {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .main .wrapper p {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .main .mainWrapper,
+  .main .mainWrapper2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+
+.main .mainWrapper2 .wrapper2 a {
+    background-color: rgb(98, 120, 151);
+    width: fit-content;
+    height: 20px;
+    color:white;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: inline-block; 
+}
+
+.main .mainWrapper2  {
+    background-color: rgb(98, 120, 151);
+    width: 100%;
+    height: 300px;
+    
+}
+
+
+
+.main .wrapper2 .close {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.main .wrapper2 .close h2 {
+    margin-bottom: 10px;
+}
+
+.main .wrapper2 .close label {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.main .wrapper2 .close input[type="text"],
+.main .wrapper2 .close input[type="email"],
+.main .wrapper2 .close textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.main .wrapper2 .close textarea {
+    height: 70px;
+    width: 300px;
+}
+
+.main .wrapper2 .close input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main .wrapper2 .close input[type="submit"]:hover {
+    background-color: #45a049;
+}
